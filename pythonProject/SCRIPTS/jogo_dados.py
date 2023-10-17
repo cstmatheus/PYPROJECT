@@ -9,9 +9,13 @@ print('=='*30)
 
 print('======= O GANHADOR E AQUELE QUE TIRAR O NUMERO MAIOR =======')
 print('=='*30)
+op = int(input('DIGITE QUALQUER NUMERO PARA INICIAR OU ZERO PARA SAIR: '))
+while op != 0:
+    x = random.randint(6)
 
-x = random.randint(6)
 
+    print('[{:^58}]'.format(x+1))
+    print('=='*30)
+    op = int(input('DIGITE QUALQUER NUMERO PARA INICIAR OU ZERO PARA SAIR: '))
 
-print('[{:^58}]'.format(x+1))
-print('=='*30)
+print('SISTEMA FINALIZADO')

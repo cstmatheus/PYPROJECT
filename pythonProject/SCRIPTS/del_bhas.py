@@ -1,7 +1,3 @@
-"""
-delta e bhaskara
-"""
-
 def delta(b, a, c):
     d = (b ** 2) - (4 * a * c)
 
